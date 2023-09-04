@@ -1,0 +1,23 @@
+#modulo-desarrolo{
+    display: none;
+}
+
+#modulo-desarrolo:target{
+    display: block;
+}
+
+#ver-menos1:target{
+    display: none;
+}
+
+#modulo-diseño{
+    display: none;
+}
+
+#modulo-diseño:target{
+    display: block;
+}
+
+#ver-menos2:target{
+    display: none;
+}

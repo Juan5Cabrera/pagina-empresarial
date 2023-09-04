@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg-[rgb(26,26,26)] py-4 fixed top-0 left-0 right-[px] z-10">
+        <div class="container mx-auto flex justify-between items-center ml-[40px]">
+            <img src="../img/logo.png" alt="" class="w-16 h-16">
+            <ul class="flex space-x-10">
+                <li><a href="../index.html" class="text-lg font-bold text-gray-300 hover:text-gray-100"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="./pages/cursos.html" class="line-through text-lg font-bold text-gray-300 hover:text-gray-100">Cursos</a></li>
+                <li><a href="#" class="text-lg font-bold text-gray-300 hover:text-gray-100">Estudiantes</a></li>
+                <li><a href="#" class="text-lg font-bold text-gray-300 hover:text-gray-100">Docentes</a></li>
+            </ul>
+            
+            <div class="flex space-x-4">
+                <a href="#" class="text-lg text-gray-300 hover:text-gray-100">Reseñas</a>
+                <a href="#" class="text-lg text-gray-300 hover:text-gray-100"><i class="fas fa-user"></i></a>
+                <a href="#" class="text-lg text-gray-300 hover:text-gray-100"><i class="fas fa-phone"></i></a>
+            </div>
+
+            
+        </div>
+        <p class="text-gray-400 relative top-[27px]">────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</p>  
+    </nav>
+</body>
+
+<main class="flex-col flex-wrap  bg-[rgb(26,26,26)]">
+
+    <h1 class="text-white mt-[120px] text-center font-bold text-4xl">CONOCE NUESTROS CURSOS ACTIVOS, ¿QUE ESPERAS PARA INSCRIBIRTE?</h1>
+    <section class="flex flex-wrap">
+        <div class="max-w-md mx-auto mt-[200px] flex flex-col">
+
+            
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+              <img src="../img/curso-desarrollo.jpeg" alt="Imagen" class="w-full ">
+              <div class="p-4">
+                <h2 class="text-xl font-semibold">Desarrollador Web</h2>
+                <a href="#modulo-desarrolo"><button class="mt-2 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Ver Modulos</button></a>
+
+                <section id="modulo-desarrolo" class="flex flex-col flex-wrap gap-10 mt-[100px]">
+                    <img src="../img/modulo-1.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+                    <img src="../img/modulo-2.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+                    <img src="../img/modulo-3.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+                    <img src="../img/modulo-4.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+            
+                    <a href=""><button id="ver-menos1" class="mt-2 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Ver Menos</button></a>
+                </section>
+              </div>
+            </div>
+        </div>
+    
+        
+    
+        <div class="max-w-md mx-auto mt-[200px] flex flex-col">
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+              <img src="../img/curso-diseño.jpeg" alt="Imagen" class="w-full ">
+              <div class="p-4">
+                <h2 class="text-xl font-semibold">Diseño Gráfico</h2>
+                <a href="#modulo-diseño"><button class="mt-2 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Ver Modulos</button></a>
+
+                <section id="modulo-diseño" class="flex flex-col flex-wrap gap-10 mt-[100px]">
+                    <img src="../img/diseño-modulo-1.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+                    <img src="../img/diseño-modulo-2.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+                    <img src="../img/diseño-modulo-3.jpeg" alt="" class="w-[500px] mx-auto mb-10">
+            
+                    <a href=""><button id="ver-menos2" class="mt-2 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Ver Menos</button></a>
+                </section>
+              </div>
+            </div>
+        </div>
+    
+          
+    </section>
+    
+
+    <div class="max-w-md mx-auto mt-[200px]">
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img src="../img/coming-soon.webp" alt="Imagen" class="w-full ">
+          <div class="p-4">
+            <h2 class="text-xl font-semibold">Ciberseguridad</h2>
+            <a href=""><button class="mt-2 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600">Proximamente</button></a>
+          </div>
+        </div>
+    </div>
+</main>
+</html>
